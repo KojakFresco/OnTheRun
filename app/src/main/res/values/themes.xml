@@ -1,9 +1,34 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.OnTheRun" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:statusBarColor">@color/main</item>
+        <item name="colorPrimary">@color/main</item>
+        <item name="itemActiveIndicatorStyle">@color/white</item>
+        <item name="background">@color/white</item>
+        <item name="android:textColorSecondary">@color/pale_white</item>
+        <item name="alertDialogTheme">@style/AppTheme.Dialog</item>
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
+    
+    <style name="Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/light_blackout</item>
+    </style>
 
+    <style name="AppTheme.Dialog" parent="Theme.MaterialComponents.DayNight.Dialog">
+        <item name="android:textColor">@color/blackout</item>
+        <item name="colorPrimary">@color/black</item>
+    </style>
     <style name="Theme.OnTheRun" parent="Base.Theme.OnTheRun" />
+
+    <style name="Theme.OnTheRun.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.OnTheRun.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.OnTheRun.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

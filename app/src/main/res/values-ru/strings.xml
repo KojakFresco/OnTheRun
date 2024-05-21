@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">На ходу</string>
+
+    <!-- Preference Titles -->
+    <string name="speech_header">Речь</string>
+    <string name="sync_header">Синк</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Подпись</string>
+    <string name="voice_title">Голос озвучки</string>
+
+    <!-- TODO: clean up here-->
+    <!-- Sync Preferences -->
+    <string name="language_title">Язык</string>
+    <string name="volume">Громкость</string>
+    <string name="speed">Скорость</string>
+
+    <string name="my_textbooks">Мои учебники</string>
+    <string name="add_textbook">Добавить</string>
+    <string name="settings">Настройки</string>
+
+    <string name="add_fragment_text">В разработке…</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="app_settings">Общие настройки</string>
+    <string name="to_database">База данных</string>
+    <string name="textbook_text">Параграф №1</string>
+    <string name="add_demo">Добавить демо-учебник</string>
+</resources>

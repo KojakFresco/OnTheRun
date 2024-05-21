@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Voice Preference -->
+    <string-array name="voice_entries">
+        <item>Женский 1</item>
+        <item>Мужской 1</item>
+        <item>Женский 2</item>
+        <item>Женский 3</item>
+        <item>Мужской 2</item>
+        <item>Мужской 3</item>
+    </string-array>
+
+    <string-array name="voice_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!-- Lang Preference -->
+    <string-array name="lang_entries">
+        <item>Русский</item>
+    </string-array>
+
+    <string-array name="lang_values">
+        <item>ru</item>
+    </string-array>
+</resources>

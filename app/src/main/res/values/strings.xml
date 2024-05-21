@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">On the run</string>
+
+    <!-- Preference Titles -->
+    <string name="speech_header">Speech</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="voice_title">Speech voice</string>
+
+    <!-- TODO: clean up here-->
+    <!-- Sync Preferences -->
+    <string name="language_title">Language</string>
+    <string name="volume">Volume</string>
+    <string name="speed">Speed</string>
+
+    <string name="my_textbooks">My textbooks</string>
+    <string name="add_textbook">Add textbook</string>
+    <string name="settings">Settings</string>
+
+    <string name="add_fragment_text">Coming soon…</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="app_settings">App Settings</string>
+    <string name="to_database">To database</string>
+    <string name="textbook_text">Страница 1</string>
+    <string name="choose_page_text">Введите страницу...</string>
+    <string name="add_demo">Add demo</string>
 </resources>
